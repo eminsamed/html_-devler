@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+
+<body>
+
+    <main style="background-color: beige;">
+        <h2 style="margin-left: 10%; margin-right: 10%;">The HiCoders welcomes you!</h2>
+        <p style="margin-left: 10%; margin-right: 10%;">
+            We are experienced software engineers. We voluntarily help people who are interested in IT and
+            run various
+            courses for this purpose. If you are interested in our course, do not hesitate to contact us!
+        </p>
+
+        <fieldset style="width: 60%; margin-left: 10%; margin-right: 10%;">
+            <legend>Personel Information</legend>
+            <form>
+                <div class="form-group">
+                    <label for="username">Firstname</label> <br>
+                    <input id="name" type="text" placeholder="Please enter your firstname!">
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Lastname</label> <br>
+                    <input name="lastname" type="text" placeholder="Please enter your lastname!">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label> <br>
+                    <input name="name" type="text" placeholder="Please enter your email!">
+                </div>
+
+                <label>
+                    <p>Gender</p>
+                    <input type="radio" name="Gender"> Female <br>
+                    <input type="radio" name="Gender"> Male
+                </label>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label> <br>
+                    <input name="phonenumber" type="number" placeholder="Please enter your phone no!">
+                </div>
+
+                <p>Graduation</p>
+                <select name="degree" id="" multiple>
+                    <option value="">PhD</option>
+                    <option value="">Master</option>
+                    <option value="">Bachelor</option>
+                    <option value="">Association</option>
+                </select>
+
+                <p>What do you expect from this course?</p>
+                <textarea name="" id="" cols="50" rows="8"></textarea>
+
+                <p>What do you want to learn programming?</p>
+                <textarea name="" id="" cols="50" rows="8"></textarea>
+            </form>
+        </fieldset>
+
+
+        <fieldset style="width: 60%; margin-left: 10%; margin-right: 10%;">
+            <legend>Family Members</legend>
+            <label>
+                <p>Are you married?</p>
+                <input type="radio" name="Gender"> Yes <br>
+                <input type="radio" name="Gender"> No
+            </label>
+
+            <section>
+                <label"> If you married, how many child do you have? </label> <br>
+                    <input name="childnumber" type="number" placeholder="Enter number of children!">
+            </section>
+
+        </fieldset>
+
+        <fieldset style="width: 60%; margin-left: 10%; margin-right: 10%;">
+            <legend>Confirmation and Application</legend>
+            <p>Which ones are you familiar with?</p>
+
+            <input type="checkbox" class="modul"> HTML </input> <br>
+            <input type="checkbox" class="modul"> CSS </input> <br>
+            <input type="checkbox" class="modul"> Bootstrap </input> <br>
+            <input type="checkbox" class="modul"> JavaScript </input> <br>
+            <input type="checkbox" class="modul"> NodeJS </input> <br>
+            <input type="checkbox" class="modul"> ReactJS </input>
+
+            <form>
+                <p>Add your CV</p>
+                <input id="dosya" type="file" name="dosya" /><br>
+
+                <label>
+                    <input type="checkbox"> Please confirm by ticking the box after reading the
+                    <a href="https://www.privacypolicies.com/blog/privacy-policies-vs-terms-conditions/">
+                        privacy terms and conditions!</a>
+                </label>
+                <br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </fieldset>
+        <hr>
+
+        <footer style="display: flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%; ">
+            <section>
+                <h3>Our Course Phases</h3>
+                <ul>
+                    <li>Web Fundamentals</li>
+                    <li>Web Programming</li>
+                    <li>Fullstack Web Programming </li>
+                    <li>Capstone Project</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Contact</h3>
+                <address>
+                    &#x2709; <a href="#"> info@hicoders.ch </a> <br>
+                    &#9990;<a href="#"> +41009001010 </a> <br>
+                    &#10023;Schaffhauserstrasse 457, <br>
+                    8052 Zürich
+                </address>
+            </section>
+        </footer>
+    </main>
+</body>
+
+</html>
